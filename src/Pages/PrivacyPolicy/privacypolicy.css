@@ -1,0 +1,25 @@
+.privacy-policy-bg {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.privacy-point-style {
+  color: #545454;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+  text-align: justify;
+}
+.title-style {
+  color: black;
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46px;
+  text-align: justify;
+}
+

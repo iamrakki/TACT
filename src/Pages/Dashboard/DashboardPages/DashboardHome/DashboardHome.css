@@ -1,0 +1,128 @@
+.fstCard {
+    width: 100%;
+    height: fit-content;
+    /* flex-shrink: 0; */
+    background-image: url(/public/assets/images/dHomeCardImg.png) !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    border-radius: 12px !important;
+    background-color: #FD6B22 !important;
+    padding: 20px 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.sndCard {
+    width: 100%;
+    height: fit-content;
+    /* flex-shrink: 0; */
+    background-image: url(/public/assets/images/dHomeCardImg.png) !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    border-radius: 12px !important;
+    background-color: #5530FA !important;
+    padding: 20px 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.trdCard {
+    width: 100%;
+    height: fit-content;
+    /* flex-shrink: 0; */
+    background-image: url(/public/assets/images/dHomeCardImg.png) !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+    border-radius: 12px !important;
+    background: #20B9FD !important;
+    padding: 20px 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+
+.cardHeadingDHome {
+    color: #F3F4FB !important;
+    font-family: Lexend !important;
+    font-size: 22px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.bodyDHome {
+    color: #FFF !important;
+    font-family: Lexend !important;
+    font-size: 36px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    text-align: center !important;
+    margin: 20px 0px !important;
+}
+
+.footerDHome {
+    color: #FFF !important;
+    font-family: Lexend !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+    line-height: normal !important;
+    text-align: center !important;
+}
+
+.textDHome {
+    margin-bottom: 25px;
+}
+
+.textDHome div p {
+    color: #545454;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+@media only screen and (max-width: 772px) {
+
+    .fstCard {
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .sndCard {
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .trdCard {
+        width: 100%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .textDHome div img {
+        width: 25px;
+    }
+
+    .textDHome div p {
+        color: #545454;
+        font-family: Lexend;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+}

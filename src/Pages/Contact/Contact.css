@@ -1,0 +1,345 @@
+.container-pro {
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contact {
+    width: 100%;
+    /* max-width: 1150px; */
+    background-color: #2a339b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+    background-color: #d6dbfb;
+    position: relative;
+}
+
+.form-contactV2 {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+.input-container {
+    position: relative;
+    margin: 1rem 0;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.input-contact {
+    width: 100%;
+    outline: 1px;
+    border: none;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: black;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-bottom-style: ridge;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4rem;
+    color: #333333 !important;
+    font-size: 0.9rem;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-contact {
+    display: flex;
+    border: none;
+    padding: 0.6rem 1.3rem;
+    font-size: 20px;
+    color: #262626;
+    line-height: 1;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 350%);
+}
+
+.input-container span {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    padding: 0 0.4rem;
+    color: transparent;
+    pointer-events: none;
+    z-index: 500;
+}
+
+.input-container span:before,
+.input-container span:after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    transition: 0.3s;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-container span:before {
+    left: 50%;
+}
+
+.input-container span:after {
+    right: 50%;
+}
+
+.input-container.focus label {
+    top: 0;
+    transform: translateY(-50%);
+    left: 25px;
+    font-size: 0.8rem;
+}
+
+.input-container.focus span:before,
+.input-container.focus span:after {
+    width: 50%;
+    opacity: 1;
+}
+
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+.contact-info .title {
+    color: #fafafa;
+}
+
+.text {
+    color: #fafafa;
+    margin: 20px;
+    font-size: 16px;
+}
+
+@media (max-width: 850px) {
+    .form-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info:before {
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95);
+    }
+
+    .contact-form:before {
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+
+    .text {
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    .social-media {
+        padding: 1.5rem 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-info:before {
+        display: none;
+    }
+
+    .input-container label {
+        font-size: 16px;
+    }
+
+    .input-container {
+        display: inline-block;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        width: 50%;
+        padding: 8px 10px !important;
+    }
+
+    .form-contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form-contactV2,
+    .contact-info {
+        padding: 1.5rem 1rem;
+    }
+
+    .text,
+    .information,
+    .social-media p {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.15rem;
+    }
+
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .icon {
+        width: 23px;
+    }
+
+    .input-contact {
+        padding: 0.45rem 1.2rem;
+    }
+
+    .btn-contact {
+        padding: 0.45rem 1.2rem;
+    }
+}
+
+.input-container {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 5px 25px;
+}
+
+.input-container .input-subcontainer {
+    flex-basis: 48%;
+}
+
+.input-container .input-contact {
+    width: 100%;
+}
+
+.input-container .input-subcontainer .enquiry-options {
+    display: flex;
+    justify-content: space-around;
+    text-indent: 10px;
+    margin-top: 20px;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 780px) {
+    .enquiry-options {
+        margin-left: 80px;
+    }
+}
+
+.input-container.textarea {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+.form-contact .input-container.textarea {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.top-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.information-1 {
+    /* background-image: url(./img/Phone.png); */
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 18px;
+    color: #fafafa;
+    padding-left: 3rem;
+    line-height: 400%;
+}
+
+.information-1 a {
+    text-decoration: none !important;
+    color: #fafafa;
+}
+
+.information-2 a {
+    text-decoration: none !important;
+    color: #fafafa;
+}
+
+.contact-text {
+    color: #fafafa;
+    text-decoration: none !important;
+}
+
+.info div {
+    line-height: 50px;
+}
+
+.information-2 {
+    /* background-image: url(./img/mail.png); */
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 18px;
+    color: #fafafa;
+    padding-left: 3rem;
+    line-height: 400%;
+}
+
+.information-3 {
+    /* background-image: url(./img/Map.png); */
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    color: #fafafa;
+    padding-left: 3rem;
+    line-height: 200%;
+}

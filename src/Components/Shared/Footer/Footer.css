@@ -1,0 +1,52 @@
+.bg-footer {
+    background-image: radial-gradient(50% 50.00% at 50% 50.00%, #2D37A6 0%, #161958 100%);
+    color: white;
+}
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titleHandle div h4 {
+    color: #FFF;
+    text-align: left;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.titleHandle div {
+    padding: 0px 100px;
+}
+
+.titleHandle div p {
+    color: #FFF;
+    text-align: left;
+    font-family: 'Saira', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 0;
+    /* width: 100%; */
+    white-space: nowrap !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .titleHandle div {
+        padding: 0px 60px;
+    }
+}
+
+.titleHandle:hover{ 
+    cursor: pointer;
+}

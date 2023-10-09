@@ -1,0 +1,3224 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.cardSubTitleIssue {
+    color: #000;
+    font-family: Lexend;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.widthHandle {
+    width: 50%;
+}
+
+.handleExcelPart {
+    background: #DAFFDE;
+    width: 100%;
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.handleDownloadOfferSheet {
+    /* width: 100%; */
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #E1E5FF;
+}
+
+.downloadText {
+    color: #202576;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.handleQrCode {
+    position: absolute;
+    bottom: 9%;
+    left: 4%;
+    width: 12% !important;
+    height: auto !important;
+}
+
+
+
+.cardSubInfoIssue {
+    color: #5B5B5B;
+    font-family: Lexend;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.handleScanWidth {
+    width: 50%;
+    display: inline;
+}
+
+.handleAlertWidth {
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    .handleScanWidth {
+        width: 100%;
+    }
+
+    .input-groupCus {
+        width: 100% !important;
+    }
+
+    .handleAlertWidth {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .form-issue div input {
+        width: auto !important;
+        height: 45px !important;
+        padding: 10px !important;
+        font-size: 1rem !important;
+        border-radius: 42px 0px 0px 42px !important;
+        border: none;
+        background: white !important;
+        outline: none !important;
+        margin-bottom: 0px !important;
+        padding-left: 15px !important;
+    }
+}
+
+.form-issue {
+    height: 60vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.input-groupCus {
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: stretch;
+    width: 90%;
+    border: 1px solid #7180DF;
+    height: fit-content;
+    border-radius: 42px;
+    margin-bottom: 15px;
+}
+
+.form-issue div input {
+    width: 80% !important;
+    height: 45px !important;
+    padding: 10px !important;
+    font-size: 1rem !important;
+    border-radius: 42px 0px 0px 42px !important;
+    border: none;
+    background: white !important;
+    outline: none !important;
+    margin-bottom: 0px !important;
+    padding-left: 15px !important;
+}
+
+
+.input-group-textCus {
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 48px !important;
+    background: #414791 !important;
+    color: #F3F4FB !important;
+    font-family: Lexend !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    margin-bottom: 0 !important;
+    height: 45px !important;
+    padding: 15px !important;
+    font-size: 1rem !important;
+    cursor: pointer !important;
+}
+
+/* .form-issue::-webkit-scrollbar {
+    display: none;
+} */
+
+.form-issue label {
+    color: #000;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.form-issue input {
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 42px;
+    border: 1px solid #7180DF;
+    /* background: #C2E7FF; */
+    background: white;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+
+}
+
+.form-issueV2 {
+    height: auto;
+    background: #E1E5FF;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.form-issueV2 label {
+    color: black;
+    font-family: Lexend;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: left !important;
+}
+
+.form-issueV2 input {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 48px;
+    background: #b5d6ec;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+.box-image3 {
+    background-image: url(/public/assets/images/certificateTem.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: transparent;
+    border: 1px dashed black;
+    /* box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.10); */
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+/* Certificate  starts*/
+
+.box-cer {
+    border: 1px dashed black;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box-cer-A4-7 {
+    width: 55% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.handleQrCodeV2 {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+.handleQrCodeV4CT7 {
+    width: 40px !important;
+    position: absolute !important;
+    bottom: 2.5% !important;
+    left: 14% !important;
+}
+
+.handleQrCodeV3CT5 {
+    position: absolute;
+    bottom: 9%;
+    left: 6%;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.handleDetailsDateDefinite3 {
+    position: absolute;
+    bottom: 16%;
+    left: 33%;
+    font-size: small !important;
+}
+
+.handleDetailsDateDefinite4 {
+    position: absolute;
+    bottom: 17%;
+    left: 33%;
+    font-size: small !important;
+}
+
+.handleDetailsDateDefinite5 {
+    position: absolute;
+    bottom: 18%;
+    left: 30%;
+    font-size: 14px !important;
+}
+
+.handleDetailsDateDefinite6 {
+    position: absolute;
+    bottom: 18.2%;
+    left: 47%;
+    font-size: 16px !important;
+}
+
+.handleDetailsDateDefinite7 {
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    font-size: 14px !important;
+}
+
+.handleDetailsDateDefinite8 {
+    position: absolute;
+    bottom: 24%;
+    left: 65%;
+    font-size: 16px !important;
+}
+
+.handleTextCerV1CT1 {
+    position: absolute;
+    top: 37%;
+    overflow: hidden;
+    left: 8%;
+}
+
+.handleTextCerV1CT2 {
+    position: absolute;
+    top: 49%;
+    overflow: hidden;
+    left: 40%;
+}
+
+.handleTextCerV1CT3 {
+    position: absolute;
+    top: 45%;
+    overflow: hidden;
+    left: 25%;
+}
+
+.handleTextCerV1CT4 {
+    position: absolute;
+    top: 35%;
+    overflow: hidden;
+    left: 25%;
+}
+
+.handleTextCerV1CT5 {
+    position: absolute;
+    top: 43%;
+    overflow: hidden;
+    left: 25%;
+}
+
+.handleTextCerV1CT6 {
+    position: absolute;
+    top: 35%;
+    overflow: hidden;
+    left: 41%;
+}
+
+.handleTextCerV1CT7 {
+    position: absolute;
+    top: 44%;
+    overflow: hidden;
+    left: 14%;
+    width: 72% !important;
+}
+
+.handleTextCerV1CT8 {
+    position: absolute;
+    top: 30%;
+    overflow: hidden;
+    left: 26%;
+}
+
+
+
+
+.handleImgCerV3CT8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 84%;
+    left: 43%;
+    text-align: center;
+}
+
+.handleImgCerV3CT8 div img {
+    max-width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.handleImgCerV3CT7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 13.3%;
+    left: 0%;
+    text-align: center;
+}
+
+.handleImgCerV3CT7 div img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.handleLog7 {
+    width: 100%;
+}
+
+.handleImgCerV3CT6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    text-align: center;
+}
+
+
+.handleImgCerV3CT5 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 15%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 19%;
+    left: 57%;
+    text-align: center;
+}
+
+
+.handleImgCerV3CT4 {
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 15%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 17.5%;
+    left: 47.7%;
+    text-align: center;
+
+}
+
+
+.handleImgCerV3CT2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 35px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 74.1%;
+    left: 40.5%;
+    text-align: center;
+}
+
+.handleImgCerV3CT2 div img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    /* border: 1px solid red; */
+}
+
+.handleLog2 {
+    width: 100%;
+}
+
+.handleImgCerV3CT3 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    width: 15%;
+    height: 25px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 17%;
+    left: 53%;
+    text-align: center;
+}
+
+.handleImgCerV4CT3 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* width: 57%; */
+    height: 50px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 3%;
+    left: 47%;
+    text-align: center;
+}
+
+.handleImgCerV4CT4 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* width: 57%; */
+    height: 50px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    text-align: center;
+}
+
+.handleImgCerV4CT5 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* width: 57%; */
+    height: 50px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 13%;
+    right: 8%;
+    text-align: center;
+}
+
+.handleImgCerV4CT6 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* width: 57%; */
+    height: 45px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    text-align: center;
+}
+
+.handleImgCerV4CT7 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* width: 57%; */
+    height: 40px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 2.5%;
+    right: 14%;
+    text-align: center;
+}
+
+.handleImgCerV3CT1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 46%;
+    height: 30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 72%;
+    left: 7%;
+    text-align: center;
+}
+
+.handleImgCerV3CT1 div img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+
+
+.handleNameCerV3 {
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid black !important;
+    color: rgb(0, 0, 139);
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+
+.handleNameCerV3Definite7 {
+    font-size: 22px !important;
+    height: auto !important;
+    margin-bottom: 3px;
+}
+
+
+.handleDetailsCerV3Definite7 {
+    font-size: 10.5px !important;
+}
+
+.handleDetailsDateV3Definite7 {
+    font-size: 10.5px !important;
+}
+
+.handleDetailsCerV3 {
+    /* width: 100%; */
+    font-size: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.handleDetailsDateV3 {
+    /* width: 66%; */
+    font-size: 15px;
+    text-align: center;
+}
+
+.handleNameCerV2 {
+    position: absolute;
+    top: 50%;
+    /* border: 1px solid red; */
+    height: 40px;
+    overflow: hidden;
+    left: 35%;
+    border-bottom: 1px solid black !important;
+    color: rgb(0, 0, 139);
+    width: 60%;
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+
+
+.handleDetailsCerV2 {
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    width: 66%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.handleDetailsDateV2 {
+    position: absolute;
+    top: 65%;
+    left: 32%;
+    width: 66%;
+    text-align: center;
+}
+
+
+
+.handleImgCerV2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 40px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    text-align: center;
+}
+
+.handleImgCerV2 div img {
+    max-width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.handleLog1 {
+    width: 75%;
+}
+
+@media only screen and (max-width:992px) {
+    .box-cer-A4-7 {
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1399px) {
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 71.3%;
+        left: 7.3%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 75%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 74%;
+        left: 40.5%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 25px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 32%;
+        font-size: small !important;
+    }
+
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 17%;
+        left: 32%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 66%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10.2%;
+        left: 35%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18.2%;
+        left: 47%;
+        font-size: 16px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 60px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 60px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 13px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 47%;
+        height: 26px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70.3%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 73.5%;
+        left: 40.5%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 32%;
+        font-size: 11px !important;
+    }
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        /* width: 57%; */
+        height: 40px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 2%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT4 {
+        height: 40px;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 18%;
+        left: 47.7%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 17%;
+        left: 30%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 66%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10.2%;
+        left: 35%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        /* width: 57%; */
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 17.8%;
+        left: 47%;
+        font-size: 13px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 10.5px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 24px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 24px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 24px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 24px !important;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 10.5px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .handleNameCerV3Definite7 {
+        font-size: 30px !important;
+        height: auto !important;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 14px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 72.5%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 75.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 16.5%;
+        left: 53%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 33.2%;
+        font-size: small !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 66%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 35%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18.5%;
+        left: 47%;
+        font-size: 16px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 70px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 70px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 16px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 38px;
+        /* margin-bottom: 0; */
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 37px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 37px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 37px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 37px !important;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:527px) and (max-width: 767px) {
+    .handleNameCerV3Definite7 {
+        font-size: 25.5px !important;
+        height: auto !important;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 12.5px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 12.5px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46.3%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70.2%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 74.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53.3%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 32%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.5%;
+        left: 47.7%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT4 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 17%;
+        left: 32%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 66%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 35%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 40px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 14px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 60px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 60px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 12px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 28px;
+        /* margin-bottom: 0; */
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 27px;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 27px;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 27px;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 27px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:524px) and (max-width: 526px) {
+    .handleNameCerV3Definite7 {
+        font-size: 25px !important;
+        height: auto !important;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 11.5px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 11.5px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46.3%;
+        height: 30px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70.2%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 74.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53.3%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 32%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.5%;
+        left: 47.7%;
+        text-align: center;
+
+    }
+
+    .handleImgCerV4CT4 {
+        height: 35px;
+
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 17%;
+        left: 32%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 66%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 35%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 14px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 60px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 60px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 11.5px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 28px;
+        /* margin-bottom: 0; */
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 27px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 27px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 27px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 27px !important;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 11.5px;
+    }
+}
+
+@media only screen and (min-width: 452px) and (max-width: 523px) {
+    .handleNameCerV3Definite7 {
+        font-size: 22px !important;
+        height: auto !important;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 10.5px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 10.5px !important;
+    }
+
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46.3%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 73.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        /* width: 57%; */
+        height: 50px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 2%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 14%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 32%;
+        font-size: 11px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 18%;
+        left: 47.7%;
+        text-align: center;
+
+    }
+
+    .handleImgCerV4CT4 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 17%;
+        left: 31%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 14px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 62%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 37%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 13px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 10px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 24px;
+        /* margin-bottom: 0; */
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 23px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 23px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 23px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 23px !important;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 423px) and (max-width: 451px) {
+
+    .box-cer-A4-7 {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleNameCerV3Definite7 {
+        font-size: 23.3px !important;
+        height: auto !important;
+        margin-bottom: 4px !important;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 11px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 11px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46.3%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 69%;
+        left: 7%;
+        text-align: center;
+    }
+
+
+    .handleLog1 {
+        width: 45%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 72.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 40px;
+        height: auto;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 1%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 14%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53.3%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 30%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.2%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 63%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 36%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 32px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 17.5%;
+        left: 47%;
+        font-size: 13px !important;
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 21px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.7%;
+        left: 47.7%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT4 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 16.5%;
+        left: 30%;
+        font-size: 12px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 9.5px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 9.5px;
+    }
+}
+
+@media only screen and (min-width: 417px) and (max-width: 422px) {
+    .box-cer-A4-7 {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleNameCerV3Definite7 {
+        font-size: 23px !important;
+        height: auto !important;
+        margin-bottom: 4px !important;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 10.5px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 10.5px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 46.3%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 69%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 45%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 72.3%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 40px;
+        height: auto;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 1%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 14%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17%;
+        left: 53.2%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 30%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.3%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 63%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 36%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 32px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 11px !important;
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 21px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 21px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.7%;
+        left: 47.7%;
+        text-align: center;
+
+    }
+
+    .handleImgCerV4CT4 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 16.5%;
+        left: 31%;
+        font-size: 11px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 9px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 364px) and (max-width: 416px) {
+    .box-cer-A4-7 {
+        width: 85% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleNameCerV3Definite7 {
+        font-size: 21px !important;
+        height: auto !important;
+        margin-bottom: 4px !important;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 10px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 10px !important;
+    }
+
+    .handleImgCerV4CT7 {
+        height: 40px;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45.8%;
+        height: 25px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 68%;
+        left: 7.3%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70.5%;
+        left: 40%;
+        text-align: center;
+    }
+
+
+    .handleWidthSmLogo {
+        width: 30px !important;
+    }
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 30px;
+        height: auto;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 1%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 14%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.3%;
+        left: 53.2%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 29.5%;
+        font-size: 11px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.3%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 35px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 63%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 10%;
+        left: 36%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 30px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 11px !important;
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 18px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 18%;
+        left: 47.7%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT4 {
+        height: 30px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 16.5%;
+        left: 29%;
+        font-size: 11px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 40px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 40px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 8px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 19px;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 363px) {
+    .box-cer-A4-7 {
+        width: 85% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleNameCerV3Definite7 {
+        font-size: 20.5px !important;
+        height: auto !important;
+        margin-bottom: 4px !important;
+    }
+
+    .handleDetailsCerV3Definite7 {
+        font-size: 9.3px !important;
+    }
+
+    .handleDetailsDateV3Definite7 {
+        font-size: 9.3px !important;
+    }
+
+    .handleImgCerV4CT7 {
+        height: 35px;
+    }
+
+    .handleQrCodeV4CT7 {
+        width: 35px !important;
+    }
+
+    .handleImgCerV3CT1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45.8%;
+        height: 25px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 68%;
+        left: 7.3%;
+        text-align: center;
+    }
+
+    .handleLog1 {
+        width: 50%;
+    }
+
+    .handleImgCerV3CT2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 56%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleWidthSmLogo {
+        width: 30px !important;
+    }
+
+    .handleImgCerV4CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 30px;
+        height: auto;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 1%;
+        left: 47%;
+        text-align: center;
+    }
+
+    .handleImgCerV3CT3 {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 14%;
+        height: 28px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 17.3%;
+        left: 53.2%;
+        text-align: center;
+    }
+
+    .handleDetailsDateDefinite3 {
+        position: absolute;
+        bottom: 16%;
+        left: 29%;
+        font-size: 11px !important;
+    }
+
+    .handleImgCerV3CT5 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 19.3%;
+        left: 57%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT5 {
+        height: 30px;
+    }
+
+    .handleDetailsDateDefinite5 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        font-size: 12px !important;
+    }
+
+    .handleImgCerV3CT6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 62%;
+        height: 25px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 11%;
+        left: 36%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT6 {
+        height: 28px;
+    }
+
+    .handleDetailsDateDefinite6 {
+        position: absolute;
+        bottom: 18%;
+        left: 47%;
+        font-size: 10px !important;
+    }
+
+    .handleNameCerV3Definite3 {
+        font-size: 16px !important;
+    }
+
+    .handleNameCerV3Definite4 {
+        font-size: 16px !important;
+    }
+
+    .handleNameCerV3Definite5 {
+        font-size: 16px !important;
+    }
+
+    .handleNameCerV3Definite6 {
+        font-size: 16px !important;
+    }
+
+    .handleImgCerV3CT4 {
+        /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+        width: 15%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        bottom: 18%;
+        left: 47.7%;
+        text-align: center;
+    }
+
+    .handleImgCerV4CT4 {
+        height: 30px;
+    }
+
+    .handleDetailsDateDefinite4 {
+        position: absolute;
+        bottom: 16.5%;
+        left: 29%;
+        font-size: 11px !important;
+    }
+
+    .handleQrCodeV2 {
+        width: 40px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 40px;
+    }
+
+    .handleDetailsCerV3 {
+        font-size: 7px;
+    }
+
+    .handleNameCerV3 {
+        height: auto;
+        font-size: 17px;
+        margin-bottom: 3px;
+    }
+
+    .handleDetailsDateV3 {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+
+    .handleQrCodeV2 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleQrCodeV3CT5 {
+        width: 50px;
+    }
+
+    .handleNameCerV3 {
+        /* border: 1px solid red; */
+        font-size: 20px;
+        height: 25px;
+    }
+
+    .handleDetailsCerV3 {
+
+        width: 74%;
+        overflow: hidden;
+        text-align: center;
+
+        font-size: 12px;
+    }
+
+    .handleDetailsDateV3 {
+
+        width: 74%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .handleNameCerV2 {
+        /* border: 1px solid red; */
+        font-size: 20px;
+        height: 25px;
+    }
+
+    .handleDetailsCerV2 {
+        position: absolute;
+        top: 61%;
+        left: 26%;
+        width: 74%;
+        overflow: hidden;
+        text-align: center;
+
+        font-size: 12px;
+    }
+
+    .handleDetailsDateV2 {
+        position: absolute;
+        top: 66%;
+        left: 26%;
+        width: 74%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .handleImgCerV3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 67%;
+        left: 10%;
+        text-align: center;
+    }
+
+    .handleImgCerV3 div img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .handleImgCerV2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+        height: 27px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 73%;
+        left: 40%;
+        text-align: center;
+    }
+
+    .handleImgCerV2 div img {
+        max-width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+}
+
+/* Certificate  end*/
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.custom-form {
+    width: 50%;
+}
+
+.viewer {
+    width: 100%;
+    background-color: #e4e4e4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCr {
+    color: #000;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
+
+
+.gapping {
+    gap: 0px;
+}
+
+.handleMiddleNonScroll {
+    position: fixed;
+    top: 35%;
+    left: 55%;
+}
+
+.absoluate_wrapper {
+    width: 100% !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.handleNameCer {
+    position: relative;
+    top: 155px;
+    /* border: 1px solid red; */
+    height: 40px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+    left: 110px;
+    border-bottom: 1px solid black !important;
+    color: rgb(0, 0, 139);
+    width: 60%;
+    font-family: 'Playball', cursive;
+    font-size: 35px;
+}
+
+
+.handleDetailsCer {
+    position: relative;
+    top: 160px;
+}
+
+.handleImgCer {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 49%;
+
+}
+
+.handleImgCer div img {
+    max-width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 650px) {
+    .gapping {
+        gap: 30px;
+    }
+
+    .handleDownloadOfferSheet h5 {
+        font-size: 14px;
+    }
+
+    .handleExcelPart {
+        height: 160px;
+
+    }
+
+    .handleExcelPart h5 {
+        font-size: 16px;
+
+    }
+
+    .widthHandle {
+        width: 100%;
+    }
+
+    .handleTxtSize {
+        font-size: 18px !important;
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 9%;
+        left: 3%;
+        width: 12% !important;
+        height: auto !important;
+    }
+
+    .absoluate_wrapper {
+        width: 78%;
+        height: 80%;
+        top: 17%;
+    }
+
+    .form-issue {
+        height: auto;
+    }
+
+    .titleCr {
+        width: 100%;
+    }
+
+    .form-issue input {
+        width: 100%;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 390px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        top: 30px;
+
+    }
+}
+
+@media only screen and (min-width:1201px) and (max-width: 1399px) {
+
+    .handleImgCer {
+        width: 100%;
+        height: 45px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 47%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 5%;
+        left: 3%;
+        width: 12% !important;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 420px;
+
+    }
+}
+
+@media only screen and (min-width:773px) and (max-width: 989px) {
+    .box-cer-A4-7 {
+        width: 60% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 13% !important;
+        left: 3% !important;
+    }
+
+    .handleImgCer {
+        width: 100%;
+        height: 59px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 52%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleNameCer {
+        position: relative;
+        top: 265px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+
+        border-bottom: 1px solid black;
+        color: darkblue;
+        font-family: 'Playball', cursive;
+        font-size: 35px;
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 252px;
+        font-size: 16px;
+    }
+
+    .box-image3 {
+        background-image: url(/public/assets/images/certificateTem.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-color: transparent;
+        /* border: 1px solid #5B5B5B; */
+        /* box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.10); */
+        width: 100%;
+        height: 520px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        top: 30px;
+
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 772px) {
+    .box-cer-A4-7 {
+        width: 60% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleImgCer {
+        width: 100%;
+        height: 59px !important;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 52% !important;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+
+    .handleNameCer {
+        position: relative;
+        top: 260px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 252px;
+        font-size: 16px;
+    }
+
+    .box-image3 {
+        background-image: url(/public/assets/images/certificateTem.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-color: transparent;
+        /* border: 1px solid #5B5B5B; */
+        /* box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.10); */
+        width: 100%;
+        height: 520px !important;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        top: 30px;
+
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 13% !important;
+        left: 3% !important;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+    .box-cer-A4-7 {
+        width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleNameCer {
+        position: relative;
+        top: 200px;
+
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 158px;
+    }
+
+    .handleImgCer {
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 43%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 12% !important;
+        left: 3% !important;
+        width: 12% !important;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 350px;
+
+    }
+
+}
+
+@media only screen and (min-width:451px) and (max-width: 767px) {
+
+    .handleNameCer {
+        position: relative;
+        top: 165px;
+        font-size: 22px;
+        width: 80%;
+        height: 28px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 162px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media only screen and (min-width:576px) and (max-width: 772px) {
+
+    .handleImgCer {
+        width: 100%;
+        height: 49px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 48%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 385px;
+    }
+}
+
+@media only screen and (min-width: 451px) and (max-width:575px) {
+
+    .handleImgCer {
+        width: 100%;
+        height: 43px !important;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 45% !important;
+
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 330px;
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 9%;
+        left: 3%;
+        width: 12% !important;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width: 450px) {
+
+    .handleImgCer {
+        width: 100%;
+        height: 40px !important;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 46% !important;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 17% !important;
+        left: 3% !important;
+        width: 12% !important;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 300px !important;
+    }
+}
+
+@media only screen and (min-width:371px) and (max-width: 450px) {
+
+    .handleNameCer {
+        position: relative;
+        top: 170px;
+        font-size: 18px;
+        width: 80%;
+        height: 25px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 166px;
+        font-size: 12px;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 260px;
+    }
+
+    .handleImgCer {
+        width: 100%;
+        height: 36px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 44%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 22%;
+        left: 3%;
+        width: 12% !important;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .handleNameCer {
+        position: relative;
+        top: 170px;
+        font-size: 18px;
+        width: 80%;
+        height: 25px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .handleImgCer {
+        width: 100%;
+        height: 36px;
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 43%;
+
+    }
+
+    .handleImgCer div img {
+        max-width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 166px;
+        font-size: 12px;
+    }
+
+    .handleQrCode {
+        position: absolute;
+        bottom: 23%;
+        left: 3.8%;
+        width: 12% !important;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .box-cer-A4-7 {
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box-image3 {
+        width: 100%;
+        height: 485px;
+        position: relative;
+        border: 1px dashed black;
+    }
+
+    .handleNameCer {
+        position: relative;
+        top: 250px;
+    }
+
+    .handleDetailsCer {
+        position: relative;
+        top: 205px;
+    }
+}

@@ -1,0 +1,33 @@
+#boxTable {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin-left: 1px;
+    display: none;
+    /* Initially hide the div */
+    transition: opacity 2s ease-in-out;
+    /* Apply transition to opacity property */
+}
+
+.boxblock {
+    display: block !important;
+    /* Show the div */
+    opacity: 1;
+    /* Make it fully visible */
+}
+
+.boxhidden {
+    opacity: 0;
+    /* Make it fully transparent */
+}
+
+.marging {
+    text-align: center;
+    margin-left: -30px !important;
+}
+
+@media only screen and (max-width:1200px) {
+    .gapping {
+        gap: 25px
+    }
+}

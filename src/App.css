@@ -1,0 +1,474 @@
+.bg-particular {
+    background-image: url(/public/assets/images/bg-vector1.png), url(/public/assets/images/bg-vector2.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: center left, right bottom;
+    /* background-size: contain; */
+    height: auto;
+}
+
+.text-global {
+    color: #000;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.btn {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-warning {
+    /* font-size: 20px !important; */
+    background: #fcdc27 !important;
+    color: #262626 !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+    text-align: center !important;
+    font-family: Lexend !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    background: #222; */
+    /* position: relative; */
+    /* @include fade-transition(background); */
+
+}
+
+
+.btn-warning:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(120deg,
+            rgba(255, 255, 255, 0) 30%,
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, 0) 70%);
+
+    top: 0;
+    left: -100px;
+    animation: shimmer 2s infinite linear;
+    transform: skewX(57deg) translateX(0);
+    /* Animation */
+}
+
+.btn-warning:hover {
+    background: #eccd1a !important;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -100px
+    }
+
+    20% {
+        left: 100%
+    }
+
+    100% {
+        left: 100%
+    }
+}
+
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #2D37A6 0%, #161958 100%) !important;
+    color: white;
+}
+
+.dTitle {
+    color: #000;
+    font-family: Lexend;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.treeItemLabel {
+    /* border-bottom: 1px solid #CACACA; */
+}
+
+.d-flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .aos-animate {
+        transition-property: none !important;
+        transform: none !important;
+        animation: none !important;
+    }
+}
+
+.css-zddlty-MuiButtonBase-root-MuiButton-root {
+    text-transform: none !important;
+}
+
+.sub-title-text {
+    color: #545454;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link_hash {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.loaders {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid darkblue;
+    /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+.wait {
+    color: darkblue;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* --------------------------------- */
+
+.swal-overlay--show-modal .swal-modal {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.swal-title {
+    color: #000;
+}
+
+button.swal-button.swal-button--confirm {
+    background: cadetblue;
+}
+
+.swal-footer {
+    text-align: center;
+}
+
+.swal-modal {
+    background: #fff !important;
+}
+
+.swal-icon--success:after {
+    background: none !important;
+}
+
+.swal-icon--success:before {
+    background: none !important;
+}
+
+.swal-icon--success__hide-corners {
+    background: none !important;
+}
+
+.swal-text {
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 0px !important;
+}
+
+.css-1qw96cp {
+    padding: 0px !important;
+}
+
+/* swal */
+.swal-title {
+    color: #000 !important;
+    font-weight: normal;
+}
+
+.swal-text {
+    color: #000 !important;
+}
+
+.modal_class_success {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.modal_class_success .swal-icon::before {
+    background-color: transparent !important;
+}
+
+.modal_class_success .swal-icon::after {
+    background-color: transparent !important;
+}
+
+.swal-icon--success__hide-corners {
+    display: none !important;
+}
+
+.closeD {
+    text-align: right;
+}
+
+.closeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.iconClose {
+    position: absolute !important;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: none !important;
+    border: none !important;
+    font-size: 25px !important;
+
+}
+
+.iconCloseR {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: none !important;
+    border: none !important;
+    font-size: 25px !important;
+
+}
+
+/* connect wallet button  */
+
+.connectWallet {
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(92.18deg, #0D86D7 -2.82%, #D24BB0 99.39%);
+    box-shadow: 4px 4px 20px #7A66C2;
+    border-radius: 8px;
+    border: transparent !important;
+}
+
+.connectWallet:hover {
+
+    background: linear-gradient(92.18deg, #0675be -2.82%, #b63696 99.39%);
+}
+
+/* central title  */
+.titleOfCentral {
+    color: #000;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .titleOfCentral {
+        font-style: normal;
+        font-size: 22px;
+        color: black;
+        font-weight: 800;
+    }
+
+    /* .dTitle {
+        font-size: 24px;
+    } */
+
+    .handleSmTitleCentral {
+        width: 400px;
+        font-size: 24px;
+        position: relative;
+        left: -110px;
+    }
+}
+
+/* editor-styles.css */
+
+/* Wrapper */
+.wrapperClassName {
+    /* Your custom wrapper styles */
+    /* border: 1px solid red !important; */
+    width: 90%;
+    position: relative !important;
+}
+
+/* Editor */
+
+.DraftEditor-root {
+    position: relative;
+    top: -7px !important;
+}
+
+.editorClassName {
+    /* Your custom editor styles */
+    /* background: red !important; */
+    width: 100% !important;
+    overflow: hidden !important;
+    border: 1px solid #7180DF;
+    /* background: #C2E7FF; */
+    background: white !important;
+    color: #000 !important;
+    /* position: relative; */
+}
+
+
+
+/* Toolbar */
+.wrapperClassName .toolbarClassName {
+    display: flex;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.toolbarClassName {
+    /* Your custom toolbar styles */
+    border-radius: 6px !important;
+    border: none !important;
+    /* background-image: url(/public/assets/images/toolArrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;
+    background-size: cover !important; */
+    background-color: #BCC2E6 !important;
+    color: #000 !important;
+    font-family: Lexend !important;
+    width: fit-content !important;
+    position: absolute;
+    /* left: ${({ contentWidth }) => contentWidth}px; */
+    transform: translateX(-100%);
+    white-space: nowrap;
+    /* pointer-events: none; */
+    z-index: 10;
+
+}
+
+/* Toolbar buttons */
+.rdw-option-wrapper {
+    /* Your custom styles for option wrapper */
+    background: transparent !important;
+    border: none !important;
+    color: #313031 !important;
+    font-family: Lexend !important;
+    font-size: 10px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: normal !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    height: min-content !important;
+    min-width: 25px !important;
+}
+
+/* Toolbar inline styles (bold, italic, underline) */
+.rdw-inline-wrapper {
+    /* Your custom styles for inline options */
+    /* background: red !important; */
+    height: min-content !important;
+
+}
+
+/* Font family dropdown */
+.rdw-fontfamily-wrapper {
+    /* Your custom styles for font family dropdown */
+    color: #313031 !important;
+    font-family: Lexend !important;
+    background-color: #BCC2E6 !important;
+    /* border: none !important;
+    font-size: 10px !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    line-height: normal !important; */
+}
+
+.rdw-dropdown-wrapper {
+    height: min-content !important;
+    color: #313031 !important;
+    font-family: Lexend !important;
+    background-color: #BCC2E6 !important;
+    border: none !important;
+    width: 80px !important;
+}
+
+/* Color picker dropdown */
+.rdw-colorpicker-modal {
+    /* Your custom styles for color picker modal */
+}
+
+
+/* custom-toolbar-styles.css */
+
+.custom-toolbar {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.custom-toolbar-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s;
+
+    &:hover {
+        color: #1976d2;
+        /* Change to your desired color */
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .wrapperClassName {
+        /* Your custom wrapper styles */
+        width: 100%;
+    }
+}

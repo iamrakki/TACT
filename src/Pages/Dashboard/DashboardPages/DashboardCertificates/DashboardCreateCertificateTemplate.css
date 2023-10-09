@@ -1,0 +1,86 @@
+.bg-issue {
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    /* overflow: hidden; */
+
+}
+
+.img-height {
+    height: auto;
+    max-height: 500px;
+    width: auto !important;
+}
+
+.handleCanvas {
+    position: absolute;
+    z-index: 999;
+    top: 0%;
+    /* border: 1px solid red; */
+}
+
+.titleCrV2 {
+    color: #000;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15% !important;
+}
+
+.handleAllOptions label {
+    font-size: 18px;
+}
+
+.handleAllOptions select {
+    display: inline !important;
+    width: auto !important;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* margin-left: 10px;
+    margin-right: 10px;
+    background-color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    border: 1px solid #495057;
+    border-radius: 0.375rem;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: whitesmoke; */
+    /* color: #adb5bd; */
+}
+
+/* .handleAllOptions select option {
+
+    margin-top: 15px;
+    margin-right: 15px;
+} */
+
+.handleAllOptions input {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* display: inline !important; */
+    /* width: auto !important; */
+}
+
+@media only screen and (max-width: 650px) {
+
+    .img-height {
+        height: auto;
+        max-height: 300px;
+        width: auto !important;
+    }
+
+    .titleCrV2 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
